@@ -1,0 +1,29 @@
+<object-stream>
+  <list>
+    <Project.Facility>
+      <facilityId>15112020</facilityId>
+      <facilityName>Soccer Pitch</facilityName>
+      <user__id>10</user__id>
+    </Project.Facility>
+    <Project.Facility>
+      <facilityId>16112020</facilityId>
+      <facilityName>Soccer Pitch</facilityName>
+      <user__id>10</user__id>
+    </Project.Facility>
+    <Project.Facility>
+      <facilityId>28112020</facilityId>
+      <facilityName>Soccer Pitch</facilityName>
+      <user__id>13</user__id>
+    </Project.Facility>
+    <Project.Facility>
+      <facilityId>11112020</facilityId>
+      <facilityName>Soccer Pitch</facilityName>
+      <user__id>0</user__id>
+    </Project.Facility>
+    <Project.Facility>
+      <facilityId>20112020</facilityId>
+      <facilityName>Soccer Pitch</facilityName>
+      <user__id>0</user__id>
+    </Project.Facility>
+  </list>
+</object-stream>

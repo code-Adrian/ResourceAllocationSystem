@@ -1,0 +1,20 @@
+<object-stream>
+  <list>
+    <Project.User>
+      <fName>Bob</fName>
+      <lName>Marley</lName>
+      <mobile>876667777</mobile>
+      <email>testuser@gmail.com</email>
+      <password>Tester123</password>
+      <user__id>10</user__id>
+    </Project.User>
+    <Project.User>
+      <fName>adrian</fName>
+      <lName>LastName</lName>
+      <mobile>870991371</mobile>
+      <email>email22@gmail.com</email>
+      <password>Password2</password>
+      <user__id>13</user__id>
+    </Project.User>
+  </list>
+</object-stream>

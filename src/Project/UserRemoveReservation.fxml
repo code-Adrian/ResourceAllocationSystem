@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.UserReservationController">
+    <children>
+        <ImageView fx:id="iv" fitHeight="561.0" fitWidth="760.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../out/production/ResourceAllocationSystem/Img/pitch.jpg" />
+            </image>
+        </ImageView>
+        <AnchorPane layoutX="105.0" layoutY="74.0" prefHeight="263.0" prefWidth="550.0" styleClass="AnchorPane" stylesheets="@Css.css">
+            <children>
+                <Label fx:id="label" alignment="CENTER" layoutX="84.0" layoutY="14.0" prefHeight="27.0" prefWidth="40.0" text="000" textAlignment="CENTER" textFill="#f80e0e">
+                    <font>
+                        <Font name="SansSerif Bold" size="18.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="20.0" layoutY="15.0" prefHeight="25.0" prefWidth="64.0" text="User_ID:" textAlignment="CENTER" textFill="#f80e0e">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                </Label>
+                <Label layoutX="212.0" layoutY="26.0" text="Reservations:" textFill="#a45858">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Button id="#Text" alignment="CENTER" layoutX="187.0" layoutY="211.0" mnemonicParsing="false" onAction="#DeleteReservation" prefHeight="32.0" prefWidth="176.0" stylesheets="@Css.css" text="Remove Reservation" textAlignment="CENTER">
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startY="0.6904761904761905">
+                            <stops>
+                                <Stop color="#a11c1c" />
+                                <Stop color="#3d3bb9" offset="1.0" />
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Button>
+            <TextField fx:id="ReservationNumber" layoutX="237.0" layoutY="177.0" prefHeight="25.0" prefWidth="77.0" />
+            <HBox layoutX="115.0" layoutY="56.0" prefHeight="116.0" prefWidth="320.0">
+               <children>
+                  <TextArea fx:id="Reservations" prefHeight="87.0" prefWidth="162.0" />
+                  <TextArea fx:id="Facility" prefHeight="94.0" prefWidth="160.0" />
+               </children>
+            </HBox>
+            <Label layoutX="72.0" layoutY="180.0" text="Reservation Number:" textFill="#2d8751">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="ErrorChecker2" layoutX="352.0" layoutY="170.0" prefHeight="17.0" prefWidth="184.0" />
+            </children></AnchorPane>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="461.0" mnemonicParsing="false" onAction="#BacktoUserPanel" prefHeight="32.0" prefWidth="86.0" stylesheets="@Css.css" text="&lt; Return" textAlignment="CENTER" />
+    </children>
+</Pane>
